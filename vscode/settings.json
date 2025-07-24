@@ -1,0 +1,86 @@
+{
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "window.menuBarVisibility": "compact",
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+   
+   // NORMAL MODE
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [" ", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": ["<C-s>"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": [":move +1"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": [":move -2"]
+    },
+    {
+      "before": ["<S-h>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<C-w>"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<C-h>"],
+      "commands": ["workbench.view.explorer"] // Foca na barra lateral esquerda
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["workbench.action.focusActiveEditorGroup"] // Volta pro editor
+    },
+    {
+      "before": ["a"],
+      "commands": ["explorer.newFile"]
+    }
+  ],
+
+  // INSERT MODE
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-s>"],
+      "commands": [":w"]
+    }
+  ],
+
+  // VISUAL MODE
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<C-s>"],
+      "commands": [":w"]
+    }
+  ],
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "hidden"
+}
