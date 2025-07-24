@@ -18,7 +18,16 @@ Minha configuração do Neovim é construída sobre o NVChad, um framework altam
 ```bash
 # Configs Neovim
 git clone https://github.com/seu-usuario/ide-configs.git
+
+# Remover a pasta .git
+rm -rf ~/.config/nvim/.git
 ```
+
+## ⚙️ VSCode
+Minha configuração do Vscode com todas as keymaps do vim.
+
+### 📦 Instalação
+
 ```bash
-# Configs porém no vscode
+# Configs VSCode
 # Preferences > Open User Settings (JSON) -- Basta colar o JSON
