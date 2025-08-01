@@ -10,9 +10,8 @@
     "editor.fontLigatures": true,
     "workbench.editor.labelFormat": "short",
     "explorer.compactFolders": false,
-    "window.menuBarVisibility": "compact",
     "chat.commandCenter.enabled": false,
-    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
    
    // NORMAL MODE
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -49,11 +48,11 @@
       "commands": ["workbench.action.closeActiveEditor"]
     },
     {
-      "before": ["<C-h>"],
+      "before": ["<C-l>"],
       "commands": ["workbench.view.explorer"] // Foca na barra lateral esquerda
     },
     {
-      "before": ["<C-l>"],
+      "before": ["<C-h>"],
       "commands": ["workbench.action.focusActiveEditorGroup"] // Volta pro editor
     },
     {
@@ -81,6 +80,18 @@
       "commands": [":w"]
     }
   ],
+
+  // ADDITIONAL CONFIGS
   "window.commandCenter": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "workbench.statusBar.visible": false,
+  "chat.agent.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "explorer.confirmDelete": false,
+  "explorer.fileNesting.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "fish"
 }
