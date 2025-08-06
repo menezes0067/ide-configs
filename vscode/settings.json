@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Min Dark",
     "workbench.iconTheme": "symbols",
     "symbols.hidesExplorerArrows": false,
     "editor.fontFamily": "JetBrains Mono",
@@ -93,5 +92,11 @@
   "editor.scrollbar.vertical": "hidden",
   "explorer.confirmDelete": false,
   "explorer.fileNesting.enabled": true,
-  "terminal.integrated.defaultProfile.linux": "fish"
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "window.menuBarVisibility": "compact",
+  "workbench.tree.indent": 16,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0.6,
+  "workbench.navigationControl.enabled": false,
+  "workbench.colorTheme": "Min Darker Theme (by GmsGarcia)",
 }
